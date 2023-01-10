@@ -1,1 +1,1 @@
-# osszefoglalas
+# Összefoglalás
