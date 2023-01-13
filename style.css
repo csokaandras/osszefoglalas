@@ -1,5 +1,7 @@
 h1{
+  padding: 5px;
   margin: 0%;
+  color: #ff010196;
     text-align: center;
 
     -webkit-animation: tracking-in-contract-bck 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
@@ -7,8 +9,14 @@ h1{
 
     -webkit-animation: color-change-2x 2s linear infinite alternate both;
 	        animation: color-change-2x 2s linear infinite alternate both;
-}
 
+transition: padding 10s;
+
+
+}
+h1:hover{
+  padding: 35%;
+}
 
 @-webkit-keyframes color-change-2x {
     0% {
@@ -126,5 +134,13 @@ footer{
 
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
+}
+
+button{
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #b22cff;
+  background-color: #19dcea;
 }
